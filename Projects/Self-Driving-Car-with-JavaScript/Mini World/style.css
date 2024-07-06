@@ -1,0 +1,44 @@
+/* Set global styles for the entire HTML body */
+body {
+    margin: 0;  /* Remove default margin */
+    background: darkgray;  /* Set background color for the body */
+    overflow: hidden;  /* Hide overflowing content */
+    display: flex;  /* Use Flexbox for layout */
+    justify-content: center;  /* Center content horizontally */
+    align-items: center;  /* Center content vertically */
+}
+
+/* Style for a container with vertical buttons */
+#verticalButtons {
+    display: flex;  /* Use Flexbox to arrange buttons vertically */
+    flex-direction: column;  /* Arrange buttons in a column */
+}
+
+/* Style for general button styles */
+button {
+    border: none;  /* Remove button border */
+    border-radius: 5px;  /* Add rounded corners to the button */
+    padding: 5px 5px 7px 5px;  /* Set padding for the button */
+    margin: 2px;  /* Set margin around the button */
+    cursor: pointer;  /* Set cursor to pointer for interactive feel */
+}
+
+/* Style for button hover effect */
+button:hover {
+    background: blue;  /* Change background color on hover to blue */
+}
+
+/* Style for the canvas used as a mini-map */
+#miniMapCanvas {
+    background: black;  /* Set background color for the mini-map canvas */
+}
+
+/* Style for the canvas used to visualize the neural network */
+#networkCanvas {
+    background: black;  /* Set background color for the network canvas */
+}
+
+/* Style for the canvas used to display the self-driving car simulation */
+#carCanvas {
+    background: #2a5;  /* Set background color for the car canvas */
+}
